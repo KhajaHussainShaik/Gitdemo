@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'mysql:latest'
+      image 'maven'
     }
 
   }
